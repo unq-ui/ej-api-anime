@@ -1,0 +1,5 @@
+language: java
+
+before_install: rm ~/.m2/settings.xml
+
+script: mvn clean test
